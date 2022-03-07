@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="animated backOutLeft">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="node_modules/swup/dist/swup.min.js"></script>
+    <script defer src="index.js"></script>
+    <title>Home</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <ul class="nav-list">
+                <li><a href="./index.html" class="nav-links">Home</a></li>
+                <li><a href="./about.html" class="nav-links">About</a></li>
+                <li><a href="./work.html" class="nav-links">My CV</a></li>
+                <li><a href="./skill.html" class="nav-links">Skill</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main data-router-wrapper id="swup" class="transition-fade">
+        <section data-router-view="home" class="home">
+            <div class="home-content">
+                <div class="home-presentation">
+                    <h1>Hello, I'm Manh
+                    </h1>
+                    <p>A Web Developer</p>
+                </div>
+                <img src="./assets/cv.png" alt="">
+                <div class="home-contact">
+                    <ul class="contact">
+                        <li><a href="https://www.facebook.com/hungmanh.hoang.963" target="_blank" class="fa fa-facebook"></a></li>
+                        <li><a href="https://www.instagram.com/manh963234/" class="fa fa-instagram" target="_blank"></a></li>
+                        <li><a href="#gmail" class="fa fa-google" name="gmail"></a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </section>
+        
+    </main>
+</body>
+
+</html>
